@@ -1,0 +1,39 @@
+.register-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, var(--background-start), var(--background-end));
+}
+
+.register-card {
+  width: 100%;
+  max-width: 450px;
+  padding: 2.5rem;
+  background-color: var(--card-background);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  animation: slideUp 0.5s ease-out;
+}
+
+.register-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.register-header h2 {
+  color: var(--secondary-color);
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
+
+.register-header p {
+  color: #666;
+}
+
+.register-form {
+  margin-bottom: 1.5rem;
+}
+
+/* Reuse styles from Login.css */
